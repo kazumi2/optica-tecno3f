@@ -1,0 +1,415 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+body {
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #070707;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1, h2, h3 {
+    color: #3b3a75;
+}
+
+/* Header */
+header {
+    background-color: hsl(236, 43%, 73%);
+    color: #080808;
+    padding: 1rem;
+}
+
+header .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 2rem;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #495797;
+}
+
+/* Hero Section */
+#hero {
+    background: url('imagen/mujer-anteojos-sienta-habitacion-oscura-fondo-oscuro_542670-3968.jpg');
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#hero .hero-content {
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#hero .btn {
+    background-color: #ffa86e;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#hero .btn:hover {
+    background-color: #e28787;
+}
+
+/* Sections */
+section {
+    padding: 4rem 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* About Section */
+#about p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    line-height: 1.8;
+}
+
+/* Shop Section */
+#shop .product-card {
+    display: inline-block;
+    background-color: #ffffff;
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(201, 41, 41, 0.568);
+    transition: transform 0.3s ease;
+}
+
+.btn {
+    background: #ff8e61;
+    color: rgb(241, 236, 236);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #e55050;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    }
+    
+    .text-border section h2 {
+        font-size: 48px;
+        color: white; /* Color del relleno del texto */
+        text-shadow: 
+            -1px -1px 0 #000000,  
+             1px -1px 0 #000,
+            -1px  1px 0 #000,
+             1px  1px 0 #000000; /* Borde negro */
+    }    
+    /* Estilos para las secciones */
+section {
+    padding: 50px 0;
+}
+
+.product-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(59, 204, 23, 0.527);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin: 15px 0;
+}
+
+.product-card span {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #419e25;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+form button {
+    background: #ff6161;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #8450e5;
+}
+
+/* Estilos del pie de página */
+footer {
+    background: #000000;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 2px solid #e1e1e1;
+}
+
+#shop .btn:hover {
+    background-color: #515be7;
+}
+
+/* Contact Section */
+#contact .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact form {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 2rem;
+}
+
+#contact .input-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="password"] {
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+#contact button {
+    .btn-enviar {
+        background-color: #5e948b; /* Azul */
+        border: none;
+        color: white;
+        padding: 12px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition-duration: 0.4s;
+    }
+
+    .btn-enviar:hover {
+        background-color: white;
+        color: black;
+        border: 2px solid #29485e;
+    }
+}
+
+#contact button:hover {
+        background-color: #5e948b; /* Azul */
+        border: none;
+        color: white;
+        padding: 12px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition-duration: 0.4s;
+    }
+
+    .btn-enviar:hover {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        border: 2px solid #29485e;
+    }
+/* Footer */
+footer {
+    background-color: #252323;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+@media (max-width: 768px) {
+    /* Ajustes para dispositivos móviles */
+    header .navigation {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 1rem 0;
+    }
+
+    #shop .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero h2 {
+        font-size: 2rem;
+    }
+
+    .product-card {
+        width: 80%;
+    }
+}
+
+header .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+#shop .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
